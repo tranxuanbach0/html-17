@@ -1,0 +1,10 @@
+let radios = Number(prompt("nhap ban kinh:"));
+const pi = 3.1416;
+let tt = ((4/3)*pi*(radios*3)).toFixed(2);
+document.write("the tich hinh cau:"+tt);
+document.write("<br>");
+let smc = (4*pi*(radios*2)).toFixed(2);
+document.write("dien tich mat cau:"+smc);
+document.write("<br>");
+let cvln = (2*pi*radios).toFixed(2);
+document.write("chu vi lon nhat cau mat cau:"+cvln);
